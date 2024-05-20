@@ -4,10 +4,11 @@ body {
 }
 
 .fondo {
+
     background-image: url(../img/fondo.jpg) !important;
 }
 
-.fondo2 {
+/* .fondo2 {
     background-image: url() !important;
-}
+} */
 
