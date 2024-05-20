@@ -4,7 +4,7 @@ body {
 }
 
 .fondo {
-    background-image: url(/trabajos/LDM_trabajos/src/img/fondo.jpg) !important;
+    background-image: url(../src/img/fondo.jpg) !important;
 }
 
 .fondo2 {
