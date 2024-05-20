@@ -1,16 +1,13 @@
 body {
     background-color:burlywood !important;
     font-family: 'Courier New', Courier, monospace !important;
-    
 }
 
 .fondo {
-    background-image: url(../src/img/_3f1e9638-045a-4f24-bf28-5d2ce0efe843.jpg) !important;
-
+    background-image: url(/trabajos/LDM_trabajos/src/img/fondo.jpg) !important;
 }
+
 .fondo2 {
-    background-image: url(../src/img/_f15480ff-51fe-4dbc-bfe9-24ad61f61094.jpg) !important;
-
+    background-image: url(/trabajos/LDM_trabajos/src/img/fond2.jpg) !important;
 }
-
 
