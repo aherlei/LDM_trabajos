@@ -8,7 +8,9 @@ btn.addEventListener("click", ()=>{
 
     
     if (lado1 == "" || lado2 == "" || lado3 == "") { 
-        resultado.innerHTML = "<span class='text-danger'>Alguno de los campos esta vacio</span>"
+        resultado.innerHTML = "<span class='text-danger'> Alguno de los campos esta vacio </span>"
+    } else if (lado1 != NaN || lado2 != NaN || lado3 != NaN) {
+        resultado.innerHTML = "<span class='text-danger'> No se introducjo ningun dato o el dato es erroneo </span>"
     } else if (lado1 == lado2 && lado1 == lado3) {
         resultado.innerHTML = "Es equilatero"
     } else if (lado1 != lado2 && lado1 != lado3) {
@@ -17,8 +19,6 @@ btn.addEventListener("click", ()=>{
                 (lado1 == lado3 || lado3 != lado2) || 
                 (lado2 == lado3 || lado1 != lado2)) {
         resultado.innerHTML = "Es isosceles"
-    } else {
-        resultado.innerHTML = "<span class='text-danger'>No se introducjo ningun dato o el dato es erroneo</span>"
     }
 
 })
