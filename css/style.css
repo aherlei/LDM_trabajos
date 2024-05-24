@@ -8,3 +8,9 @@ body {
     background-image: url(../img/fondo.jpg) !important;
 }
 
+/* ejercicio6 */
+
+#create_palin{
+    display: inline;
+}
+
