@@ -14,3 +14,46 @@ body {
     display: inline;
 }
 
+/* ejercicio 7 */
+
+
+footer{
+    height: 50px;
+    background-color: #333; 
+    color: white; 
+    text-align: center;
+    line-height: 50px; 
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Modo oscuro */
+
+/* Estilos para el modo claro */
+.light-mode {
+    color: black !important;
+}
+
+.light-mode .form-control {
+    background-color: white !important;
+    color: black;
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+.dark-mode .form-control {
+    background-color: #495057 !important;
+    color: white !important;
+}
+
+.dark-mode .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+
